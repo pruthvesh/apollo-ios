@@ -12,7 +12,7 @@ import Foundation
 public class AsyncApolloClient: ApolloClient {
   
   @discardableResult
-  public func perform<Mutation: GraphQLMutation>(mutation: Mutation,
+  public func performAsync<Mutation: GraphQLMutation>(mutation: Mutation,
                                                  publishResultToStore: Bool = true,
                                                  queue: DispatchQueue = .main) -> Result<GraphQLResult<Mutation.Data>, Error> {
     var glResult: Result<GraphQLResult<Mutation.Data>, Error>?
@@ -26,7 +26,7 @@ public class AsyncApolloClient: ApolloClient {
   }
   
   
-  @discardableResult public func fetch<Query: GraphQLQuery>(query: Query,
+  @discardableResult public func fetchAsync<Query: GraphQLQuery>(query: Query,
                                                             cachePolicy: CachePolicy = .default,
                                                             contextIdentifier: UUID? = nil,
                                                             queue: DispatchQueue = .main) -> Result<GraphQLResult<Query.Data>, Error> {
