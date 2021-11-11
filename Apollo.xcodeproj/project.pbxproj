@@ -177,6 +177,7 @@
 		C377CCA922D798BD00572E03 /* GraphQLFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377CCA822D798BD00572E03 /* GraphQLFile.swift */; };
 		C377CCAB22D7992E00572E03 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377CCAA22D7992E00572E03 /* MultipartFormData.swift */; };
 		D87AC09F2564D60B0079FAA5 /* ApolloClientOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87AC09E2564D60B0079FAA5 /* ApolloClientOperationTests.swift */; };
+		D8BF1E12273CE6200034C11F /* AsyncApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF1E11273CE6200034C11F /* AsyncApolloClient.swift */; };
 		DE058609266978A100265760 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE664ED326602AF60054DB4F /* Selection.swift */; };
 		DE05860A266978A100265760 /* ResponseDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C7B11260A6FC900D2F4FF /* ResponseDict.swift */; };
 		DE05860B266978A100265760 /* SelectionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C7B10260A6FC900D2F4FF /* SelectionSet.swift */; };
@@ -754,6 +755,7 @@
 		C377CCA822D798BD00572E03 /* GraphQLFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLFile.swift; sourceTree = "<group>"; };
 		C377CCAA22D7992E00572E03 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
 		D87AC09E2564D60B0079FAA5 /* ApolloClientOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientOperationTests.swift; sourceTree = "<group>"; };
+		D8BF1E11273CE6200034C11F /* AsyncApolloClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncApolloClient.swift; sourceTree = "<group>"; };
 		D90F1AF92479DEE5007A1534 /* WebSocketTransportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketTransportTests.swift; sourceTree = "<group>"; };
 		DE058621266978A100265760 /* ApolloAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0586222669793200265760 /* Apollo-Target-ApolloAPI.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-ApolloAPI.xcconfig"; sourceTree = "<group>"; };
@@ -1480,6 +1482,7 @@
 				9FC9A9CA1E2FD05C0023C4D5 /* Store */,
 				9FE3F3961DADBD0D0072078F /* Supporting Files */,
 				9FCDFD211E33A09F007519DC /* Utilities */,
+				D8BF1E11273CE6200034C11F /* AsyncApolloClient.swift */,
 			);
 			name = Apollo;
 			path = Sources/Apollo;
@@ -2636,6 +2639,7 @@
 				9B260BF5245A028D00562176 /* HTTPResponse.swift in Sources */,
 				5AC6CA4322AAF7B200B7C94D /* GraphQLHTTPMethod.swift in Sources */,
 				DE0586342669956A00265760 /* JSON.swift in Sources */,
+				D8BF1E12273CE6200034C11F /* AsyncApolloClient.swift in Sources */,
 				DE0586352669956D00265760 /* JSONStandardTypeConversions.swift in Sources */,
 				9BC742AE24CFB6450029282C /* CacheWriteInterceptor.swift in Sources */,
 				9B4F453F244A27B900C2CF7D /* URLSessionClient.swift in Sources */,
